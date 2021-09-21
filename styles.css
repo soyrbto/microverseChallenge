@@ -1,22 +1,47 @@
 html{
     box-sizing: border-box;
+    padding: 10px;
 }
 
 
 h1{
+    text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 50px;
+    font-weight: 700;
+    color: #333333;
+}
+
+
+h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 
 .main-wrapper{
-    margin: 50px 0;
+    margin: 30px 0;
+    padding: 0 10px;
     background-color: #EEEEEE;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.hero-section{
+    background-color: white;
+    margin-bottom: 50px;
 }
 
 .image-wrapper{
@@ -26,11 +51,40 @@ h1{
     width: 100vw;
 }
 
+figcaption{
+    margin: 20px 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
 .image-wrapper img{
     margin: 0 25vw;
     width: auto;
     height: auto;
 }
 
+.list{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    width: 30vw;
+}
+
+.list li{
+    margin-bottom: 20px;
+}
+
+
+.date{
+    font-weight: 700;
+}
+
+
+.cite{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    margin-top: 80px;
+    width: 30vw;
+}
 
 
