@@ -1,0 +1,36 @@
+html{
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+
+.main-wrapper{
+    margin: 50px 0;
+    background-color: #EEEEEE;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+}
+
+.image-wrapper img{
+    margin: 0 25vw;
+    width: auto;
+    height: auto;
+}
+
+
+
